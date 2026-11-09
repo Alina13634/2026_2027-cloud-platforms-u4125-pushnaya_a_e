@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1430" height="860" viewBox="0 0 1430 860">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#7B889A"/></marker></defs>
+<rect width="1430" height="860" fill="#F7F9FC"/>
+<rect x="0" y="0" width="1430" height="110" fill="#152C46"/>
+<text x="40" y="52" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Этап 1 · Начальный MVP</text>
+<text x="40" y="86" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#B9D6F3">100 пользователей · 1 000 AI-генераций в месяц · один сервис Cloud Run</text>
+<polyline points="270.0,344.0 400.0,344.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="600.0,344.0 700.0,344.0 700.0,194.0 860.0,194.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="600.0,344.0 700.0,344.0 700.0,314.0 860.0,314.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="600.0,344.0 700.0,344.0 700.0,434.0 860.0,434.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="600.0,344.0 700.0,344.0 700.0,554.0 860.0,554.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="500.0,510.0 500.0,388.0" fill="none" stroke="#7B889A" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<rect x="70" y="300" width="200" height="88" rx="12" fill="#EBF3FF" stroke="#4F7EBF" stroke-width="2"/>
+<text x="170.0" y="338.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Пользователь</text>
+<text x="170.0" y="361.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Браузер, ввод текста</text>
+<rect x="400" y="300" width="200" height="88" rx="12" fill="#E8F7EF" stroke="#28835A" stroke-width="2"/>
+<text x="500.0" y="338.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Cloud Run</text>
+<text x="500.0" y="361.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">UI + API · min 0 · max 3</text>
+<rect x="860" y="150" width="200" height="88" rx="12" fill="#F1EDFF" stroke="#7254BC" stroke-width="2"/>
+<text x="960.0" y="188.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Vertex AI</text>
+<text x="960.0" y="211.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Gemini 3.5 Flash-Lite</text>
+<rect x="860" y="270" width="200" height="88" rx="12" fill="#FFF3E4" stroke="#C58A37" stroke-width="2"/>
+<text x="960.0" y="308.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Firestore</text>
+<text x="960.0" y="331.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">История, лимиты</text>
+<rect x="860" y="390" width="200" height="88" rx="12" fill="#FFF3E4" stroke="#C58A37" stroke-width="2"/>
+<text x="960.0" y="428.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Cloud Storage</text>
+<text x="960.0" y="451.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Экспорт конспектов</text>
+<rect x="860" y="510" width="200" height="88" rx="12" fill="#E6F6F6" stroke="#257A7F" stroke-width="2"/>
+<text x="960.0" y="548.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Cloud Logging</text>
+<text x="960.0" y="571.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Логи, ошибки, бюджет</text>
+<rect x="400" y="510" width="200" height="88" rx="12" fill="#FFF0F3" stroke="#A9516A" stroke-width="2"/>
+<text x="500.0" y="548.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Service Account</text>
+<text x="500.0" y="571.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">IAM, минимальные права</text>
+<rect x="313.5" y="334.0" width="43.0" height="19" rx="4" fill="#F7F9FC"/>
+<text x="335.0" y="348.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">HTTPS</text>
+<rect x="648.8" y="229.0" width="102.4" height="19" rx="4" fill="#F7F9FC"/>
+<text x="700.0" y="243.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">промпт → ответ</text>
+<rect x="663.8" y="304.0" width="102.4" height="19" rx="4" fill="#F7F9FC"/>
+<text x="715.0" y="318.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">запись истории</text>
+<rect x="652.1" y="409.0" width="95.8" height="19" rx="4" fill="#F7F9FC"/>
+<text x="700.0" y="423.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">файл .md/.pdf</text>
+<rect x="681.8" y="469.0" width="36.4" height="19" rx="4" fill="#F7F9FC"/>
+<text x="700.0" y="483.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">логи</text>
+<rect x="455.4" y="439.0" width="89.2" height="19" rx="4" fill="#F7F9FC"/>
+<text x="500.0" y="453.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">идентичность</text>
+<rect x="45" y="710" width="1340" height="125" rx="14" fill="#FFFFFF" stroke="#E3E8EF"/>
+<text x="68" y="740" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#1F2D3D">Основные решения</text>
+<circle cx="76" cy="764" r="3.5" fill="#3B82F6"/>
+<text x="90" y="768" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#344054">Один контейнер Cloud Run: быстро развернуть и обновлять, платим только за запросы.</text>
+<circle cx="76" cy="788" r="3.5" fill="#3B82F6"/>
+<text x="90" y="792" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#344054">Нет постоянных VM и GPU: модель вызывается по API, масштабирование до нуля.</text>
+<circle cx="76" cy="812" r="3.5" fill="#3B82F6"/>
+<text x="90" y="816" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#344054">max 3 экземпляра и бюджетное уведомление защищают от случайного перерасхода.</text>
+</svg>

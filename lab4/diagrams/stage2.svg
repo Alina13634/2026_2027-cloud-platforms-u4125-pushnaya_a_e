@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1430" height="860" viewBox="0 0 1430 860">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 5 L0 10 Z" fill="#7B889A"/></marker></defs>
+<rect width="1430" height="860" fill="#F7F9FC"/>
+<rect x="0" y="0" width="1430" height="110" fill="#152C46"/>
+<text x="40" y="52" font-family="DejaVu Sans, Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF">Этап 2 · Тестирование партнёрами</text>
+<text x="40" y="86" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" fill="#B9D6F3">2 000 пользователей · 40 000 AI-генераций в месяц · фоновые задания</text>
+<polyline points="260.0,234.0 330.0,234.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="530.0,234.0 600.0,234.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="800.0,234.0 870.0,234.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="1070.0,234.0 1140.0,234.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="160.0,278.0 160.0,450.0" fill="none" stroke="#7B889A" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<polyline points="430.0,278.0 430.0,370.0 530.0,370.0 530.0,450.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="920.0,278.0 920.0,370.0 630.0,370.0 630.0,450.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="1020.0,278.0 1020.0,450.0" fill="none" stroke="#7B889A" stroke-width="2" marker-end="url(#a)"/>
+<polyline points="1240.0,278.0 1240.0,450.0" fill="none" stroke="#7B889A" stroke-width="2" stroke-dasharray="7 5" marker-end="url(#a)"/>
+<rect x="60" y="190" width="200" height="88" rx="12" fill="#EBF3FF" stroke="#4F7EBF" stroke-width="2"/>
+<text x="160.0" y="228.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Партнёры</text>
+<text x="160.0" y="251.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Веб-приложение</text>
+<rect x="330" y="190" width="200" height="88" rx="12" fill="#E8F7EF" stroke="#28835A" stroke-width="2"/>
+<text x="430.0" y="228.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Cloud Run API</text>
+<text x="430.0" y="251.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Приём заданий · min 0</text>
+<rect x="600" y="190" width="200" height="88" rx="12" fill="#EEF1FF" stroke="#5B6DB8" stroke-width="2"/>
+<text x="700.0" y="228.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Cloud Tasks</text>
+<text x="700.0" y="251.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Очередь, повторы</text>
+<rect x="870" y="190" width="200" height="88" rx="12" fill="#E8F7EF" stroke="#28835A" stroke-width="2"/>
+<text x="970.0" y="228.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Cloud Run Worker</text>
+<text x="970.0" y="251.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Генерация · min 0</text>
+<rect x="1140" y="190" width="200" height="88" rx="12" fill="#F1EDFF" stroke="#7254BC" stroke-width="2"/>
+<text x="1240.0" y="228.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Vertex AI</text>
+<text x="1240.0" y="251.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Gemini 3.5 Flash-Lite</text>
+<rect x="60" y="450" width="200" height="88" rx="12" fill="#FFF0F3" stroke="#A9516A" stroke-width="2"/>
+<text x="160.0" y="488.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Identity Platform</text>
+<text x="160.0" y="511.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Вход партнёров, роли</text>
+<rect x="465" y="450" width="200" height="88" rx="12" fill="#FFF3E4" stroke="#C58A37" stroke-width="2"/>
+<text x="565.0" y="488.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Firestore</text>
+<text x="565.0" y="511.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Задания, статусы, квоты</text>
+<rect x="870" y="450" width="200" height="88" rx="12" fill="#FFF3E4" stroke="#C58A37" stroke-width="2"/>
+<text x="970.0" y="488.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Cloud Storage</text>
+<text x="970.0" y="511.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Результаты (приватно)</text>
+<rect x="1140" y="450" width="200" height="88" rx="12" fill="#E6F6F6" stroke="#257A7F" stroke-width="2"/>
+<text x="1240.0" y="488.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="700" fill="#18314F">Logging + Monitoring</text>
+<text x="1240.0" y="511.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12.5" fill="#516278">Логи, алерты, бюджет</text>
+<text x="295.0" y="227.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">HTTPS</text>
+<text x="565.0" y="227.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">задание</text>
+<text x="835.0" y="227.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">доставка</text>
+<text x="1105.0" y="227.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">LLM</text>
+<rect x="141.8" y="354.0" width="36.4" height="19" rx="4" fill="#F7F9FC"/>
+<text x="160.0" y="368.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">вход</text>
+<rect x="409.6" y="360.0" width="128.8" height="19" rx="4" fill="#F7F9FC"/>
+<text x="474.0" y="374.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">статус «в очереди»</text>
+<rect x="726.5" y="360.0" width="109.0" height="19" rx="4" fill="#F7F9FC"/>
+<text x="781.0" y="374.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">статус «готово»</text>
+<rect x="985.3" y="354.0" width="69.4" height="19" rx="4" fill="#F7F9FC"/>
+<text x="1020.0" y="368.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">результат</text>
+<rect x="1188.8" y="354.0" width="102.4" height="19" rx="4" fill="#F7F9FC"/>
+<text x="1240.0" y="368.0" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="12" fill="#344054">токены, ошибки</text>
+<rect x="45" y="710" width="1340" height="125" rx="14" fill="#FFFFFF" stroke="#E3E8EF"/>
+<text x="68" y="740" font-family="DejaVu Sans, Arial, sans-serif" font-size="15" font-weight="700" fill="#1F2D3D">Основные решения</text>
+<circle cx="76" cy="764" r="3.5" fill="#3B82F6"/>
+<text x="90" y="768" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#344054">API сразу возвращает ID задания; клиент опрашивает статус в Firestore.</text>
+<circle cx="76" cy="788" r="3.5" fill="#3B82F6"/>
+<text x="90" y="792" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#344054">Cloud Tasks сглаживает пики и повторяет ошибки; повтор не обрабатывает задание дважды (проверка статуса).</text>
+<circle cx="76" cy="812" r="3.5" fill="#3B82F6"/>
+<text x="90" y="816" font-family="DejaVu Sans, Arial, sans-serif" font-size="14" fill="#344054">Сервисы по-прежнему масштабируются до нуля; дневные квоты генераций на партнёра.</text>
+</svg>
